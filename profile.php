@@ -15,7 +15,7 @@
   $fname = "";
   $lname = "";
 
-  $sql = "SELECT id, username, email, phone, sex, photo_name, image, fname, lname FROM mihir_users WHERE username = '$currentUsername'";
+  $sql = "SELECT id, username, email, phone, sex, photo_name, image, fname, lname FROM yavnika_users WHERE username = '$currentUsername'";
 
   $result = $con->query($sql);
 
